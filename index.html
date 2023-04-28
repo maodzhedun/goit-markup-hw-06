@@ -401,7 +401,7 @@
 
                       <!-- Footer icons -->
 
-                  <div class="icons">
+                  <div class="icons footer-icons">
                     <p class="section-item footer-section-item">Social media</p>
                     <ul class="list socials footer-socials">
                       <li class="socials-items">
@@ -438,19 +438,74 @@
                       </li>
                     </ul>
                   </div>
+
+                    <!-- Footer subscribe -->
+
+                  <div class="footer-subscribe">
+                    <p class="footer-sub-text">Subscribe</p>
+                    <form class="footer-form">
+                      <input class="footer-input" type="email" name="email"  placeholder="E-mail">
+                      <button class="footer-button" type="submit">Subscribe <svg class="footer-icon-sub" width="24" height="24">
+                        <use href="./images/icon.svg#icon-Fly"></use>
+                      </svg></button>
+                    </form>
+                  </div>
         </div>
 
     </footer>
 
     <!-- Modal windows -->
 
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop " data-modal>
       <div class="modal">
         <button  class="modal-btn" type="button" data-modal-close>
           <svg class="modal-icon" width="8" height="8">
           <use href="./images/icon.svg#icon-close-modal"></use>
         </svg>
       </button>
+
+      <strong class="modal-title">Leave your contacts and we will call you back</strong>
+      <form>
+        <label class="modal-form-input" class="modal-form-field">
+          Name
+          <span class="modal-form-wrapper">
+            <svg class="modal-form-icon"modal-form-icon width="12px" height="12px">
+              <use href="./images/icon.svg#icon-person"></use>
+            </svg>
+            <input class="modal-form-input" type="text" name="" id="">
+          </span>
+          
+        </label>
+        <label class="modal-form-input" class="modal-form-field">
+          Phone
+          <span class="modal-form-wrapper">
+            <svg class="modal-form-icon" width="12px" height="12px">
+              <use href="./images/icon.svg#icon-phone"></use>
+            </svg>
+            <input class="modal-form-input" type="tel" name="" id="">
+          </span>
+          
+        </label>
+
+        <label class="modal-form-field">
+          Email
+          <span class="modal-form-wrapper">
+            <svg class="modal-form-icon" width="12px" height="12px">
+              <use href="./images/icon.svg#icon-email"></use>
+            </svg>
+            <input class="modal-form-input" type="email" name="" id="">
+          </span>
+          
+        </label>
+          <label class="modal-form-field" for="">Comment</label>
+          <textarea name="" id="" cols="30" rows="10" placeholder="Text input"></textarea>
+
+            <label class="modal-form-agree" for="">
+              <input class="modal-form-agree-box" type="checkbox" name="" id=""> 
+              <span class="modal-form-agree-text">I accept the terms and conditions of the <a class="modal-form0agree-link" href="">Privacy Policy</a></span>
+            </label>
+            <button class="button modal-form-btn" type="submit">Send</button>
+      </form>
         
       </div>
     </div> 

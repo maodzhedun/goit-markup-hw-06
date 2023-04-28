@@ -1,3 +1,3 @@
 # goit-markup-hw-05
 
-HTML + CSS + Flex + SVG + animation + form&validation
+HTML + CSS + Flex + SVG + animation
