@@ -822,8 +822,9 @@ ul {
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 408px;
+  width: 100%;
   min-height: 584px;
-  padding: 24px;
+  padding: 72px 24px 24px;
 
   background-color: var(--modal-bg-color);
   border-radius: 4px;
@@ -868,7 +869,7 @@ ul {
 
 .modal-title {
   display: block;
-  margin-top: 48px;
+  /* margin-top: 48px; */
   margin-bottom: 16px;
 
   /* margin-block-start: 1em; */
